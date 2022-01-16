@@ -436,6 +436,10 @@ local M = {}
 
 M.chaos_factor = 4
 
+function M.get_chaos_factor()
+	print(M.chaos_factor)
+end
+
 function M.set_chaos_factor(chaos_factor)
 	if chaos_factor > 6 then
 		chaos_factor = 6

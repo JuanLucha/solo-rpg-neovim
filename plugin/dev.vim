@@ -9,6 +9,3 @@ EOF
 endfunction
 " Reload the plugin
 nnoremap <Leader>pra :call ReloadAlpha()<CR>
-" Test the plugin
-nnoremap <Leader>pre :lua require("dices").dice(4, 8, "Generating PJ!")<CR>
-nnoremap <Leader>pri :lua require("mythic").fate_check()<CR>
