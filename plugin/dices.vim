@@ -5,6 +5,8 @@ set cpo&vim           " reset them to defaults
 
 command! -nargs=* DiceMd lua require("dices").dice_md(<args>)
 command! -nargs=* Dice lua require("dices").dice(<args>)
+command! -nargs=* FateDie lua require("dices").fate_die(<args>)
+command! -nargs=* FD lua require("dices").fate_die(<args>)
 
 let &cpo = s:save_cpo " and restore after
 unlet s:save_cpo

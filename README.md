@@ -6,7 +6,22 @@ The Mythic solo rpg system is written by Tana Pidgeon, from [WordMillGames](http
 
 ## Commands
 
-These
+
+#### :FateDie or :FD
+
+Makes a fate dice check
+
+**Params**\
+modifier - modifier of the roll (difficulty of the task, skill of the PC, etc...)
+reason - reason of the check (make an attack, climb the wall, etc...)
+
+**Example**\
+:FD 2, "Striking the orc in the face with the chair"
+
+```
+Striking the orc in the face with the chair
+1 ( --+▢ +2)
+```
 
 #### :DiceMD
 
